@@ -1,0 +1,46 @@
+h1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: x-large;
+
+}
+h2{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: larger;
+
+}
+h3{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: large;
+   
+}
+p{
+    color: rgb(20, 20, 20);
+}
+body{
+    background-color: rgb(181, 228, 243);
+}
+#encabezado{
+    background-color:rgb(181, 228, 243);
+}
+.tipoletra{
+    font-size: large;
+    color: rgb(20, 20, 20);
+    padding: 15px;
+    width: 75%;
+  
+}
+li{
+    font-size: large;
+    color: rgb(20, 20, 20);
+
+}
+img{
+    background-color: white;
+    border-radius: 600px;
+    border: solid 1px;
+    padding: 3px;
+    
+}
