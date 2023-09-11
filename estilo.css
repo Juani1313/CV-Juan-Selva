@@ -20,10 +20,10 @@ p{
     color: rgb(20, 20, 20);
 }
 body{
-    background-color: rgb(181, 228, 243);
+    background-color: white;
 }
 #encabezado{
-    background-color:rgb(181, 228, 243);
+    background-color:white;
 }
 .tipoletra{
     font-size: large;
@@ -38,9 +38,10 @@ li{
 
 }
 img{
-    background-color: white;
+    background-color:lightcyan;
     border-radius: 600px;
     border: solid 1px;
     padding: 3px;
-    
+    width: 200px;
+    height: 200px;
 }
