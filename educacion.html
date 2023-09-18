@@ -5,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Curriculum</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <h1>Mi Curriculum</h1>
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>
     <img src="img/IMG_6451.jpg">
-    <ul class="tipoletra">
-        <a href="index.html"><li>Inicio</li></a>
-        <a href="competencias.html"><li>Competencias</li></a>
-        <a href="experiencia.html"><li>Experiencias</li></a>
-        <a href="datos personales.html"><li>Datos personales</li></a>
-    </ul>
-    <h2>Educacion</h2>
-    <li>Primaria: <a href="https://www.escuelaalmafuertecastelar.edu.ar/" target="_blank">Escuela Almafuerte</a></li>
-    <li>Educacion Secundaria:<a href="https://www.colegiopresencia.edu.ar/" target="_blank">Colegio Presencia Villa Devoto</a></li>
-    <li>Educacion en idiomas:<a href="https://oxfordcollege.net/" target="_blank">Ingles (Examen "First Certificate" aprobado)</a></li>
-
+    <nav class="tipoletra">
+        <a href="educacion.html"><div class="navboton">Inicio</div></a>
+        <a href="datos personales.html"><div class="navboton">Datos personales</div></a>
+        <a href="competencias.html"><div class="navboton">Competencias</div></a>
+        <a href="experiencia.html"><div class="navboton">Experiencias</div></a>
+    </nav>
+    <main>
+        <section class="subtitulo">
+            <h2>Educación</h2>
+        </section>
+        <section class="educacion">
+            <li>Primaria: <a href="https://www.escuelaalmafuertecastelar.edu.ar/" target="_blank">Escuela Almafuerte</a></li>
+            <li>Educación Secundaria:<a href="https://www.colegiopresencia.edu.ar/" target="_blank">Colegio Presencia Villa Devoto</a></li>
+            <li>Educación en idiomas:<a href="https://oxfordcollege.net/" target="_blank">Ingles (Examen "First Certificate" aprobado)</a></li>
+        </section>
+    </main>
+    <footer>
+        <p>Derechos reservados</p>
+    </footer>
 </body>
 </html>
