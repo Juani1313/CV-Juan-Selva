@@ -2,7 +2,7 @@ h1{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif ;
     font-size: x-large;
-
+    text-align: center;
 }
 h2{
     color: black;
@@ -29,7 +29,7 @@ body{
     font-size: large;
     color: rgb(20, 20, 20);
     padding: 15px;
-    width: 75%;
+    width: 80%;
   
 }
 li{
@@ -44,4 +44,27 @@ img{
     padding: 3px;
     width: 200px;
     height: 200px;
+    margin-left: 130px;
+}
+.navboton{
+    background-color:lightcyan;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    padding: 20px;
+}
+nav{
+    background-color: lightcyan;
+    padding: auto;
+    max-width: 460px;
+   
 }
